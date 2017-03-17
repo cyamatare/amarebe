@@ -211,3 +211,57 @@ p.copyright {
 .img-embedded{
   padding-bottom: 20px;
 }
+
+/*lg-feature*/
+
+.lg-feature{
+  min-height: 500px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.wrap-around{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.lg-img{
+background: url('../img/intro-bg.jpg') no-repeat center center;
+background-size: cover;
+min-height: 350px;
+}
+
+.embed-within{
+  min-height: 350px;
+
+}
+.text-wrap{
+  max-width: 70%;
+}
+.services-list{
+  max-width: 70%;
+}
+@media only screen and (max-width: 450px){
+  .text-wrap{
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .services-list{
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .lg-feature h1{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.float-right{
+  float: right;
+}
+
+.lg-feature a{
+    color: #1f1f1f;
+}
